@@ -1,0 +1,10 @@
+% Title         : Modelo de Temperatura
+% Author        : Adan Hernandez Carlos
+
+clear
+f=-212:0.2:212;
+C=((f*5)/9)+32;
+plot (f,C);
+title("Modelo de Temperatura C(f)=((f*5)/9)+32");
+xlabel("Celsius x");
+ylabel ("Fahrenheit y");
